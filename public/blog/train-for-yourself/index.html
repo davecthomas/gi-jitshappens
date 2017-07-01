@@ -1,0 +1,437 @@
+
+
+
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
+    
+    <meta name="generator" content="Hugo 0.17" />
+    <meta name="generation-date" content="2017-07-01 16:40:39.408245557 -0700 PDT">
+    <title>Train For Yourself &middot; Austin Jiu-Jitsu</title>
+    <link rel="shortcut icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    <link rel="icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/font-awesome.min.css">
+
+
+<style>
+@font-face {
+    font-family: 'Campton';
+    src: url('/fonts/CamptonMedium.otf');
+}
+@font-face {
+    font-family: 'Pythia';
+    src: url('/fonts/pythia.ttf');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/fonts/Syncopate-Regular.ttf');
+}
+</style>
+
+
+    
+    <link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/main.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/con11.css">
+
+
+
+    <script src="http://jitshappens.herokuapp.com/js/modernizr-latest.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/lazysizes.min.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/ls.noscript.min.js"></script>
+    
+    <script src="http://jitshappens.herokuapp.com/js/jquery-2.1.4.min.js"></script>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-286848-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+
+    </script>
+
+    
+    <script>
+    $(document).ready(function(){
+
+      $("#fontsizer-small").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.4rem"});
+        $("h2").animate({"font-size":"2.2rem"});
+        $("p").animate({"font-size":"1.1rem"});
+
+      });
+
+      $("#fontsizer-medium").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.6rem"});
+        $("h2").animate({"font-size":"2.4rem"});
+        $("p").animate({"font-size":"1.3rem"});
+
+      });
+
+      $("#fontsizer-large").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"3rem"});
+        $("h2").animate({"font-size":"2rem"});
+        $("p").animate({"font-size":"1.4rem" });
+
+      });
+
+      $( "a" ).click(function() {
+       $("a").removeClass("selected");
+      $(this).addClass("selected");
+
+     });
+
+    });
+    </script>
+
+    
+</head>
+
+
+<body class="page-colors minimum-viewport-height">
+
+    
+
+<nav class="main-menu menu-colors ">
+    <ul class="menu menu-colors no-list-float ajjgoldback">
+        <li><a href="http://jitshappens.herokuapp.com/" class="hoverglow shadow"><i class="fa fa-home fa-2x"></i></a></li>
+        
+        <li><a href="#!" data-lightbox-id="searchbox" class="hoverglow shadow"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                
+                <li>
+                    <a href="https://goo.gl/G8FMu2"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="/blogs/jits-happens"  target="_self" class="hoverglow shadow">
+                      
+                        <i class="fa fa-rss fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://twitter.com/austinjiujitsu"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-twitter fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.facebook.com/austinjiujitsu.jitshappens"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-facebook fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.youtube.com/davecthomasatx"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-youtube fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="https://get.google.com/u/3/albumarchive/111656665341965456714?source=pwa&amp;pageId=none"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-picture-o fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.bjjtech.com/"  target="_self" class="hoverglow shadow">
+                      
+                      <span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span>
+                      
+                    </a>
+                </li>
+            
+        
+        
+    </ul>
+</nav>
+
+<style>
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+        height: 26px !important;
+        margin-top: 0 !important;
+        min-width: 13px !important;
+        padding: 5px 26px !important;
+        width: 68px !important;
+    }
+</style>
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <div>
+  <script>
+    (function() {
+      var cx = '000430257115162997067:_gxc-ddgtgc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search enableAutoComplete="true"></gcse:search>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="main-content">
+
+        <div class="center-space">
+
+            <div class="article-colors">
+                
+                <article>
+                    <header>
+                        <h1 class="article-title">Train For Yourself</h1>
+                        <h5 class="article-subtitle">Put Yourself in the Driver&#39;s Seat</h5>
+                        
+                        
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Thu Oct 23, 2003</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+        <span class="separator">|</span>
+        
+<ul class="tags">
+   <li>
+        <i class="fa fa-tags"></i>
+    </li>
+
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/bjj">bjj</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/mma">mma</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/blog">blog</a></li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="fontsizer">
+    <ul class="fontsizer">
+        <li><a href="#" id="fontsizer-small">A</a></li>
+        <li><a href="#" id="fontsizer-medium" class="selected">A</a></li>
+        <li><a href="#" id="fontsizer-large">A</a></li>
+    </ul>
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+                          
+                    </header>
+
+                    <hr>
+                    <div class="article-section-container "
+                    style="">
+                    <section>
+                        
+                            
+
+<p><em>Your instructor is human. Don&rsquo;t let yourself get sucked into a cult of personality.</em></p>
+
+<p>One of the fundamental and nearly universal aspects of martial arts training is the intense loyalty students feel to their instructor.</p>
+
+<p>I believe you should be loyal to those who are loyal to you, meaning you should devote your loyalty where it is earned. In some circumstances the loyalty I have seen students devote to instructors borders on blind zeal. Over the years, I have fallen into this trap from time-to-time.  It is all too easy to carelessly fantasize that your instructor is the toughest martial artist in the planet and that everything he does should be followed with biblical devotion. That&rsquo;s not my viewpoint. While I feel that within a specific school you should respect the authority of an instructor, the instructor is providing a paid service, not unlike a personal trainer.</p>
+
+<h4 id="news-flash-self-defense-instruction-is-a-service">News Flash! Self-Defense Instruction is a Service</h4>
+
+<p>This is the most prevalent problem in martial arts today. Martial arts instructors place their ego before the customer. I&rsquo;ve seen it over and over again. Most martial arts instructors will talk the talk of your personal growth, but when push comes to shove, they forget it and put their goals squarely in your path.</p>
+
+<p>This is a service industry. You, the customer (the student), hold the reins. Your instructor may help you navigate, should help you motivate, and will pick you up and redirect you when you crash. But everything you learn belongs to you. You paid for it with sweat, time, and money. It&rsquo;s yours. While you may credit your 4th grade reading teacher for your love of fiction novels, the stories you have read are yours alone.</p>
+
+<h4 id="know-when-it-s-time-to-leave">Know when it&rsquo;s time to leave</h4>
+
+<p>I have seen a pattern in many martial arts schools. As students advance through the ranks, one of three things happens.</p>
+
+<ol>
+<li>Students get &ldquo;fat and complacent&rdquo; and start to mimic the head instructor, barking orders at the new students and taking every opportunity to beat them senseless. They are completely in tune with each others&rsquo; techniques and habits. They rarely, if ever, challenge themselves in competition or against unknown (experienced) opponents. They have a stature they have worked far too hard on to have someone knock them off their pedestal.</li>
+<li>Others begin to see the weaknesses in their instructor, whether these are moral, political, or physical weaknesses. These students tend to leave, either establishing their own schools or joining a &ldquo;competing&rdquo; school. In this case, an &ldquo;exodus of the awakened&rdquo; sometimes follows.</li>
+<li>The senior students begin to assist instruction and the head instructor works on diplomacy with other schools, associations, and bridge building to promote growth in the sport. This is the optimal arrangement, but is unfortunately rare.</li>
+<li>I think it is a natural, and even beneficial process that advanced students with an open mind and true passion for experiencing personal growth will either desire to begin to instruct, thus allowing the head instructor to focus on outward-facing activities or fly away from the nest. The only unfortunate thing about this is that, due to the lifelong loyalty expected, a bridge is often burned by leaving. If your instructor has the correct attitude toward growing students, you will be welcomed back for training and you will indeed have a lifelong coach, even after you open your own school.</li>
+</ol>
+
+<p>On the other hand, having the ability to fly doesn&rsquo;t mean you should leave the nest. Know when it&rsquo;s time.  There are many schools with solid curriculum, fantastic coaching, and great facilities that can satisfy a decade of martial arts training.</p>
+
+<h4 id="building-bridges-and-fresh-meat">Building Bridges and Fresh Meat</h4>
+
+<p>Another aspect of training for yourself involves seeking relationships with other students and instructors in other schools in the area. This helps in many ways:</p>
+
+<p>It gives you access to numerous new training partners, a term I call &ldquo;eating fresh meat.&rdquo; The ones you train with at your primary school are like your brothers. You love them and have fun with them, but when you wrestle with your brothers, there is often times nothing new to learn. Sure, any mat time is better than none at all, but there is either a permanent pecking order in place, or dull and predictable stalemates are the norm.
+It allows you to test the waters to make sure that the quality of instruction you are getting really is the best for the money and time you commit to this most important endeavor. Gasp! Did I say money and time are more important than the deep relationship of loyalty you owe to your instructor? Why, yes I did. Remember the topic? &ldquo;Train for yourself, not your instructor.&rdquo;
+If the school is training in a different style, it provides valuable cross-training. This may lead to a deeper exploration of the new style if you decide it is right for you. Jiu-Jitsu students should wrestle with wrestlers, play with judoka and samboka, and prepare to learn something new. I have learned wonderful new ideas by shutting my mouth and listening to a wrestling coach instruct a class.
+Challenge your instructor</p>
+
+<p>If you are training at the right school, this may seem like suicide. Most instructors really are much tougher than you. I don&rsquo;t mean to imply you want to actually somehow destroy your instructor, but I want to make an important point. After training in traditional Karate and Aikido schools for well over 13 years, I&rsquo;m allowed to make this observation: most students don&rsquo;t try hard enough when testing technique on their instructors, or sparring with them. This is once again the &ldquo;larger than life&rdquo; problem. If an instructor asks you to throw a punch at him and you actually hit him (his demonstration fails), would you feel really bad? Should you? No. When you spar with your instructor, would you feel bad if you beat him? You shouldn&rsquo;t. In reality, if his technique doesn&rsquo;t work, you don&rsquo;t want to walk around with some false sense of security do you? The first time I beat one of my instructors sparring, I experienced mixed emotions. I certainly didn&rsquo;t feel like celebrating. It was a bit awkward, he didn&rsquo;t congratulate me, and I was left wondering what happened.</p>
+
+<p>I think it is a form of dishonesty to not challenge your instructor with your greatest effort and technique. Challenging him will keep you both sharp. I encourage my students to fight to win, and many of them are quite a handful!</p>
+
+                        
+                    </section>
+                  </div>
+                  
+<section>
+  <div class="share-head">Please Share</div>
+
+  <div class="chip ajjgoldback">
+  <a class="fa fa-twitter fa-2x sharea" href="https://twitter.com/share?text=Train%20For%20Yourself&amp;url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2ftrain-for-yourself%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="share">Twitter</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+  <a class="fa fa-facebook fa-2x sharea" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2ftrain-for-yourself%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="share">Facebook</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+    <a class="fa fa-google-plus fa-2x sharea" href="https://plus.google.com/share?url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2ftrain-for-yourself%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="share">Google+</span>
+    </a>
+</div>
+</section>
+
+
+                  
+
+
+                  </div>
+
+                    <footer class="right-align">
+                        <p><small>AustIn JIu-JItsu</small></p>
+                    </footer>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<script src="http://jitshappens.herokuapp.com/js/materialize.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://jitshappens.herokuapp.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://jitshappens.herokuapp.com/js/lightbox.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+

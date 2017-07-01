@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Austin Jiu-Jitsu</title>
+    <link>http://jitshappens.herokuapp.com/coaches/dan-borth/index.xml</link>
+    <description>Recent content on Austin Jiu-Jitsu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>AustIn JIu-JItsu</copyright>
+    <atom:link href="http://jitshappens.herokuapp.com/coaches/dan-borth/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coach Dan Borth</title>
+      <link>http://jitshappens.herokuapp.com/post/dan-borth/</link>
+      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
+      
+      <guid>http://jitshappens.herokuapp.com/post/dan-borth/</guid>
+      <description>&lt;p&gt;Austin Jiu-Jitsu Coach Dan Borth is a Brown Belt under founding coach David Thomas. Dan is known for his innovative approach that has led to creation of numerous amazing submission moves. He cross trains with some of the best coaches in Austin, including NCAA All American Wrestler &lt;a href=&#34;http://lifeforce-fitness.net/jason-carr/&#34;&gt;Jason Carr&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/authors/dan-borth.jpg&#34; alt=&#34;Dan Borth&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

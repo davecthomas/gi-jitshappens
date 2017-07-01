@@ -1,0 +1,417 @@
+
+
+
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
+    
+    <meta name="generator" content="Hugo 0.17" />
+    <meta name="generation-date" content="2017-07-01 16:40:39.409266096 -0700 PDT">
+    <title>Flow on the Path to Mastery &middot; Austin Jiu-Jitsu</title>
+    <link rel="shortcut icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    <link rel="icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/font-awesome.min.css">
+
+
+<style>
+@font-face {
+    font-family: 'Campton';
+    src: url('/fonts/CamptonMedium.otf');
+}
+@font-face {
+    font-family: 'Pythia';
+    src: url('/fonts/pythia.ttf');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/fonts/Syncopate-Regular.ttf');
+}
+</style>
+
+
+    
+    <link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/main.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/con11.css">
+
+
+
+    <script src="http://jitshappens.herokuapp.com/js/modernizr-latest.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/lazysizes.min.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/ls.noscript.min.js"></script>
+    
+    <script src="http://jitshappens.herokuapp.com/js/jquery-2.1.4.min.js"></script>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-286848-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+
+    </script>
+
+    
+    <script>
+    $(document).ready(function(){
+
+      $("#fontsizer-small").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.4rem"});
+        $("h2").animate({"font-size":"2.2rem"});
+        $("p").animate({"font-size":"1.1rem"});
+
+      });
+
+      $("#fontsizer-medium").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.6rem"});
+        $("h2").animate({"font-size":"2.4rem"});
+        $("p").animate({"font-size":"1.3rem"});
+
+      });
+
+      $("#fontsizer-large").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"3rem"});
+        $("h2").animate({"font-size":"2rem"});
+        $("p").animate({"font-size":"1.4rem" });
+
+      });
+
+      $( "a" ).click(function() {
+       $("a").removeClass("selected");
+      $(this).addClass("selected");
+
+     });
+
+    });
+    </script>
+
+    
+</head>
+
+
+<body class="page-colors minimum-viewport-height">
+
+    
+
+<nav class="main-menu menu-colors ">
+    <ul class="menu menu-colors no-list-float ajjgoldback">
+        <li><a href="http://jitshappens.herokuapp.com/" class="hoverglow shadow"><i class="fa fa-home fa-2x"></i></a></li>
+        
+        <li><a href="#!" data-lightbox-id="searchbox" class="hoverglow shadow"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                
+                <li>
+                    <a href="https://goo.gl/G8FMu2"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="/blogs/jits-happens"  target="_self" class="hoverglow shadow">
+                      
+                        <i class="fa fa-rss fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://twitter.com/austinjiujitsu"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-twitter fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.facebook.com/austinjiujitsu.jitshappens"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-facebook fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.youtube.com/davecthomasatx"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-youtube fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="https://get.google.com/u/3/albumarchive/111656665341965456714?source=pwa&amp;pageId=none"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-picture-o fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.bjjtech.com/"  target="_self" class="hoverglow shadow">
+                      
+                      <span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span>
+                      
+                    </a>
+                </li>
+            
+        
+        
+    </ul>
+</nav>
+
+<style>
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+        height: 26px !important;
+        margin-top: 0 !important;
+        min-width: 13px !important;
+        padding: 5px 26px !important;
+        width: 68px !important;
+    }
+</style>
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <div>
+  <script>
+    (function() {
+      var cx = '000430257115162997067:_gxc-ddgtgc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search enableAutoComplete="true"></gcse:search>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="main-content">
+
+        <div class="center-space">
+
+            <div class="article-colors">
+                
+                <article>
+                    <header>
+                        <h1 class="article-title">Flow on the Path to Mastery</h1>
+                        <h5 class="article-subtitle">Fun, Pain, and the Ironic Asymptote</h5>
+                        
+                        
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Apr 10, 2010</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+        <span class="separator">|</span>
+        
+<ul class="tags">
+   <li>
+        <i class="fa fa-tags"></i>
+    </li>
+
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/bjj">bjj</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/flow">flow</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/blog">blog</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/mastery">mastery</a></li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="fontsizer">
+    <ul class="fontsizer">
+        <li><a href="#" id="fontsizer-small">A</a></li>
+        <li><a href="#" id="fontsizer-medium" class="selected">A</a></li>
+        <li><a href="#" id="fontsizer-large">A</a></li>
+    </ul>
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+                          
+                    </header>
+
+                    <hr>
+                    <div class="article-section-container "
+                    style="">
+                    <section>
+                        
+                            
+
+<p>What drives us to train in this sport with such never-ending passion, spending a small fortune on training toward your black belt, burning thousands of precious hours away from work and family, at substantial risk to life and limb?</p>
+
+<p>Do the math. A black belt could easily cost you $12,000 (10 years at $100 per month), not including travel and equipment costs. Getting there will take over 3300 hours on the mats, travelling to seminars, and competing. The math will invariably include a dozen injuries and bills from more doctors than you will care to recall. Of course, a black belt is by no means a master, really just a glorified beginner in the grand scheme of things. If you believe Malcolm Gladwell in Outliers: The Story of Success, this is a little over 30% of the way toward mastery. At nearly 15 years in the sport I’m about halfway &ldquo;there.&rdquo; Wherever &ldquo;there&rdquo; is…</p>
+
+<h4 id="what-motivates-us-to-drive-drive-drive">What motivates us to drive, drive, drive?</h4>
+
+<p>To summarize, we spend a ton of money and time to get ourselves beaten to a pulp for a level of mastery which may never happen. What motivates us to drive, drive, drive?
+The payoff is mastery, which as I hint at above, is ironically something that is only asymptotically attainable. We can get close, but really never get there. But we keep driving anyway, getting our butts kicked by guys and gals who we can only dream of <em>powning</em>.</p>
+
+<p>Where does motivation come from? How can we get past the plateaus and walls that invariably block our path over and over again?
+I have previously discussed the importance of flow as a means of unleashing creativity, advancing new ideas, and physically preparing your body for full-out battle. Flow continues to be at the center of some of the most important growth moments for me in the sport. A book called <em>Drive: The Surprising Truth About What Motivates Us</em>, by an author with a downright Reservoir Dogs-esque name, Daniel Pink, illuminates this subject further with the help of solid research and engaging style. Pink, intrigued by the intrinsic and extrinsic roots of motivation, thoroughly covers the topic and ends up distilling the essential drivers for motivation along three lines: autonomy, mastery, and purpose. Mastery is a huge motivator for those of us in this sport.</p>
+
+<p>The slow march towards mastery includes moments where your growth, energy, and motivation are at their greatest. Coincidentally with my discussions on this topic, Pink calls this &ldquo;flow.&rdquo; He equates flow with play, in that the labors and efforts of the work you are engaged in become effervescent and lost in the moment of unconscious progress you enjoy in flow. How can you find your flow and how can you make this a means to accelerate growth and enjoyment? How do we work to get lost in the moment? Translated as a Zen kōan, we should concentrate maximum effort to release effortless play. The more you flow, the more you grow, and the more fun you have on the path. Having fun is a great counter balance to the pain of training hard.</p>
+
+<p>Read my article on <a href="(http://jitshappens.herokuapp.com/blog/blog-flow/)">flow</a>. Think about how you experience flow on the mats. Relax, be patient, have fun, and flow.</p>
+
+                        
+                    </section>
+                  </div>
+                  
+<section>
+  <div class="share-head">Please Share</div>
+
+  <div class="chip ajjgoldback">
+  <a class="fa fa-twitter fa-2x sharea" href="https://twitter.com/share?text=Flow%20on%20the%20Path%20to%20Mastery&amp;url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fblog-flow-and-mastery%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="share">Twitter</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+  <a class="fa fa-facebook fa-2x sharea" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fblog-flow-and-mastery%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="share">Facebook</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+    <a class="fa fa-google-plus fa-2x sharea" href="https://plus.google.com/share?url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fblog-flow-and-mastery%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="share">Google+</span>
+    </a>
+</div>
+</section>
+
+
+                  
+
+
+                  </div>
+
+                    <footer class="right-align">
+                        <p><small>AustIn JIu-JItsu</small></p>
+                    </footer>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<script src="http://jitshappens.herokuapp.com/js/materialize.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://jitshappens.herokuapp.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://jitshappens.herokuapp.com/js/lightbox.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+

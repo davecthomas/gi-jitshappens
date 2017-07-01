@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
+    
+      <link href="http://jitshappens.herokuapp.com/blog/index.xml" rel="alternate" type="application/rss+xml" title="Austin Jiu-Jitsu" />
+      <link href="http://jitshappens.herokuapp.com/blog/index.xml" rel="feed" type="application/rss+xml" title="Austin Jiu-Jitsu" />
+    
+    <meta name="generator" content="Hugo 0.17" />
+    <meta name="generation-date" content="2017-07-01 16:40:39.378898544 -0700 PDT">
+    <title>Blogs &middot; Austin Jiu-Jitsu</title>
+    <link rel="shortcut icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    <link rel="icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/font-awesome.min.css">
+
+
+<style>
+@font-face {
+    font-family: 'Campton';
+    src: url('/fonts/CamptonMedium.otf');
+}
+@font-face {
+    font-family: 'Pythia';
+    src: url('/fonts/pythia.ttf');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/fonts/Syncopate-Regular.ttf');
+}
+</style>
+
+
+    
+    <link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/main.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/con11.css">
+
+
+
+    <script src="http://jitshappens.herokuapp.com/js/modernizr-latest.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/lazysizes.min.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/ls.noscript.min.js"></script>
+    
+    <script src="http://jitshappens.herokuapp.com/js/jquery-2.1.4.min.js"></script>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-286848-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+
+    </script>
+
+    
+    <script>
+    $(document).ready(function(){
+
+      $("#fontsizer-small").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.4rem"});
+        $("h2").animate({"font-size":"2.2rem"});
+        $("p").animate({"font-size":"1.1rem"});
+
+      });
+
+      $("#fontsizer-medium").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.6rem"});
+        $("h2").animate({"font-size":"2.4rem"});
+        $("p").animate({"font-size":"1.3rem"});
+
+      });
+
+      $("#fontsizer-large").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"3rem"});
+        $("h2").animate({"font-size":"2rem"});
+        $("p").animate({"font-size":"1.4rem" });
+
+      });
+
+      $( "a" ).click(function() {
+       $("a").removeClass("selected");
+      $(this).addClass("selected");
+
+     });
+
+    });
+    </script>
+
+    
+</head>
+
+
+<body>
+    
+
+<nav class="main-menu menu-colors ">
+    <ul class="menu menu-colors no-list-float ajjgoldback">
+        <li><a href="http://jitshappens.herokuapp.com/" class="hoverglow shadow"><i class="fa fa-home fa-2x"></i></a></li>
+        
+        <li><a href="#!" data-lightbox-id="searchbox" class="hoverglow shadow"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                
+                <li>
+                    <a href="https://goo.gl/G8FMu2"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="/blogs/jits-happens"  target="_self" class="hoverglow shadow">
+                      
+                        <i class="fa fa-rss fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://twitter.com/austinjiujitsu"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-twitter fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.facebook.com/austinjiujitsu.jitshappens"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-facebook fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.youtube.com/davecthomasatx"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-youtube fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="https://get.google.com/u/3/albumarchive/111656665341965456714?source=pwa&amp;pageId=none"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-picture-o fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.bjjtech.com/"  target="_self" class="hoverglow shadow">
+                      
+                      <span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span>
+                      
+                    </a>
+                </li>
+            
+        
+        
+    </ul>
+</nav>
+
+<style>
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+        height: 26px !important;
+        margin-top: 0 !important;
+        min-width: 13px !important;
+        padding: 5px 26px !important;
+        width: 68px !important;
+    }
+</style>
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <div>
+  <script>
+    (function() {
+      var cx = '000430257115162997067:_gxc-ddgtgc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search enableAutoComplete="true"></gcse:search>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    
+    
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+
+    <section class="main-content">
+        <div class="masonry-flex-container ">
+            
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/injuries/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Common Injuries</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Oct 23, 2004</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">In this article, I share my tips on injury prevention, safety in training, and some of the injuries I&rsquo;ve seen in my time training in Brazilian Jiu-Jitsu. It is my personal perspective based on my experience. Use it as a reference only. You will certainly experience your own set of injuries if you train long enough or hard enough. Let me repeat that: if you train long enough and hard enough, you will get injured.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/injuries/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/gear-up-for-class/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Gearing Up</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Oct 23, 2004</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">This article helps new students get the gear they need to get started.
+Here&rsquo;s a checklist for organizing your trip to class:
+ Gym bag to store all this stuff Jiu-jitsu gi for gi classes. The white belt is purchased separately. Board shorts and rashguard for no-gi classes Mouthpiece Water bottle Flip flops &ndash; but leave them outside the mat room A towel for wiping up sweat  Find out what the schedule is.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/gear-up-for-class/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/blog-getting-punched/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Getting Punched Will Make You a Better Grappler</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Fri Feb 04, 2011</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Do your training buddy a favor and smack the shit out of him next time you spar. Will he forgive you? Hell, he should thank you. Flow is great and technique drilling is absolutely important, but&hellip;
+ if you aren&rsquo;t regularly putting yourself into the mindset of a real fight, you aren&rsquo;t preparing yourself for a real fight.
+ &hellip;The easiest way to do that is to get your grapplers to hit each other.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/blog-getting-punched/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/blog-flow/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Let the Bodies Hit the Flow</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Thu Nov 20, 2008</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Flow rolling is to a grappler what improvisation is to a jazz musician. It&rsquo;s a fun, creative experience that develops your skills and helps you connect with your partner.
+ Every grappling gym has its own way to get grapplers warmed up and ready for maximum athletic performance and the rigors of the full intensity of ground fighting. I prefer what I call &ldquo;flow rolling&rdquo;: a series of grappling rounds at low intensity with no submissions allowed and an emphasis on constant motion, cooperation, and resilience over static resistance and competitiveness.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/blog-flow/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/blog-dangerous-assumptions/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Parallax Error</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sun Jul 11, 2010</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">I remember being a 1st kyu brown belt in Japanese karate back in the late 1980s. I was to be evaluated for my first black belt very soon. I was steeped in the detail of techniques, training intensity, and constant pressure of a student rising to his first dan promotion. I vividly recall my pride in ability. I felt I could fight off any attack, win any fight, and deliver ikken hissatsu: to kill with a single punch.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/blog-dangerous-assumptions/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/being-smart-can-make-you-stupid/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Being the Smartest Guy in the Room Could Make You Stupid</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Mon Mar 16, 2009</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">A long time ago, I was a white belt who had just joined a new BJJ school that had moved to the area. Sitting in a circle after a technique was shared with the class, a student raised his hand and asked &ldquo;how do you escape that move?&rdquo; The instructor&rsquo;s answer: &ldquo;That&rsquo;ll cost you $90 and take an hour of my time.&rdquo; The joke, which wasn&rsquo;t a joke at all, it turns out, was that the student could only learn that information by paying for a private lesson, and the student group wasn&rsquo;t worthy of the treasured secrets of this genius.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/being-smart-can-make-you-stupid/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/a-small-milestone/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">A Small Milestone on a Long Path</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Wed Dec 24, 2008</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Like most long-term endeavors, there are few significant milestones. In a sport like Brazilian Jiu-Jitsu, where the journey from white to black belt only has 3 intermediate steps, the milestones are literally &ldquo;few and far between.&rdquo; In my case, with 13 years in the making of 2008 black belt promotion, simple math will tell you just how far those milestones were set apart.
+Much of our time working though intense athletic effort is filled with small challenges, victories, incremental growth, and setbacks.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/a-small-milestone/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/the-unsolvable-problem/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">The Unsolvable Problem</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sun Oct 23, 2005</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">This is a key lesson to learn in battle of any kind and is particularly appropriate to the way I approach application of Brazilian Jiu-Jitsu technique to a fight or sparring match.
+To achieve success in battle, you must present a dazzling flexibility to both respond to attack and counterattack with a level of speed and complexity that off-balance your opponent in a way that prevents them from ever gaining stable ground to continue the fight.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/the-unsolvable-problem/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/common-sense/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Common Sense on Training</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Oct 23, 2004</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">For Students  Life isn&rsquo;t fair; distinguish yourself with intense training. Remember when your coach told you size and strength don&rsquo;t matter? He was wrong: strength matters. When all else is equal between opponents, whoever has the edge in the smallest way will distinguish themselves in victory. Oh, and size matters too. A big guy with like skills will crush a little guy. Sorry little guys. Coming from a featherweight, I share your pain.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/common-sense/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/train-for-yourself/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Train For Yourself</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Thu Oct 23, 2003</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Your instructor is human. Don&rsquo;t let yourself get sucked into a cult of personality.
+One of the fundamental and nearly universal aspects of martial arts training is the intense loyalty students feel to their instructor.
+I believe you should be loyal to those who are loyal to you, meaning you should devote your loyalty where it is earned. In some circumstances the loyalty I have seen students devote to instructors borders on blind zeal.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/train-for-yourself/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/the-bane-of-freedom/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">The Bane of Freedom</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Aug 23, 2003</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">A warning about instructors who put themselves before you. Many instructors treat their knowledge as a treasure that is only bestowed upon those in their inner circle: their most trusted students who have shown loyalty, their knights. All the other students are serfs who have not yet proven their worth to the king. All live within his kingdom. No bonds are made or allowed with other neighboring kingdoms. You can join the king, but you must move within the walls, and never leave again.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/the-bane-of-freedom/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/blog-flow-and-mastery/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Flow on the Path to Mastery</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Apr 10, 2010</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">What drives us to train in this sport with such never-ending passion, spending a small fortune on training toward your black belt, burning thousands of precious hours away from work and family, at substantial risk to life and limb?
+Do the math. A black belt could easily cost you $12,000 (10 years at $100 per month), not including travel and equipment costs. Getting there will take over 3300 hours on the mats, travelling to seminars, and competing.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/blog-flow-and-mastery/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/the-faceted-fighter/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">The Many-Faceted Fighter</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Mon Mar 16, 2009</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Do You Have What it Takes to Succeed in Brazilian Jiu-Jitsu and Submission Grappling?
+For Students New to The Sport If you are asking yourself: &ldquo;Do I have what it takes to train in Brazilian Jiu-Jitsu and Submission Grappling?&rdquo; you are not alone. It&rsquo;s a daunting sport to enter. Watching your first class from the sidelines will give you a mixture of excitement and dread. You will be questioning every aspect of yourself as you make a decision.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/the-faceted-fighter/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/close-your-eyes/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Close Your Eyes</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sun Aug 09, 2009</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Wow, how&rsquo;d we get here?&rdquo; Wonders one of my students aloud as he pulls off his blindfold following fighting a match that took the grapplers, via a circuitous route, clear across the gym floor. &ldquo;I thought we were still over there. That was disorienting! Cool!&rdquo;
+ Disorienting, yes, but only visually so. Blindfolded grappling is a liberating experience. It&rsquo;s unusual to think of your visual reference as a crutch, but as a primary sense, it necessarily dulls the others from contributing to your responses during a match.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/close-your-eyes/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/ready-for-battle/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Ready for Battle</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Thu Nov 20, 2008</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Here are some thoughts to help everyone get ready for battle.
+ Stay hydrated. Keep taking small drinks all day. You’ll need to use the restroom continually, but it will keep your body ready to go. Avoid soda and caffeine. Food. Eat a good meal the night before. Carb load, but don’t eat a huge breakfast. Starting with breakfast on the day of the competition you should be having very small snack-sized meals.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/ready-for-battle/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/open-your-eyes/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Open Your Eyes</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sun Jul 05, 2009</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">We are sitting in a circle, with 2 of my students grappling in the center. &ldquo;Watch closely. We&rsquo;ll talk about what happened when they&rsquo;re done.&rdquo; As the two grapple, the students watch intently. After about a minute of hard work, there is a furious scramble through a twisting maze of positions, and one student suddenly taps. &ldquo;Good match! Ok, what happened? What did you see?&rdquo; I ask the group.
+After a brief pause, one of the more eager students proclaims, &ldquo;armbar.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/open-your-eyes/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/discard-what-doesnt-work/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Our System Does Not Coddle Weak Technique</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Mon Apr 27, 2009</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">&ldquo;Never use the closed guard,&rdquo; I tell my students, &ldquo;unless you are stalling or waiting to die.&rdquo; As I state this, I wonder about how this position became so fundamental only to be eventually thrown away so unceremoniously. Then I consider the never-ending stream of new techniques, positions, attacks, counter-attacks, and defenses generated in Brazilian Jiu-Jitsu and submission grappling over time. I think about some amazing technique I learned years ago as a blue belt and how it has been rendered ineffective and obsolete by the withering juggernaut of a thousand athletes pounding from all angles like velociraptors probing the electrical containment fences in Jurassic Park.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/discard-what-doesnt-work/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/mat-time/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">It&#39;s All About Mat Time</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Wed Jun 20, 2007</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">&ldquo;It&rsquo;s all about mat time.&rdquo; When I was a white belt, I was always working on passing the guard, my side control, defending the guard pass, and in general how to hold down bigger guys. I have always focused on control first: position before submission. Get in here and train as often as you can, and you will get results.
+Here’s a quote from an interview with Marcelo Garcia when asked for recommendations on how to improve in Jiu-Jitsu.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/mat-time/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/snake-oil-salesmen/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Snake Oil Salesmen</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Wed Aug 23, 2006</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Know how to distinguish the theatrical, vaudevillian Martial Arts. Unless you seek pure entertainment, these are the charlatans of the martial arts world.
+There are plenty of martial arts to stay away from completely. The reasons for these vaudevillian martial arts are as varied as the arts themselves. Some just want to trick you out of your money (snake oil salesmen). Others really believe they are on to something, and often almost never realize they are part of a charade.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/snake-oil-salesmen/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/free-will/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Free Will and the Free Agent</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sun Aug 23, 2009</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Student Migration and the Search for Personal Growth Treating students as the property of a school or coach demonstrates a lack of understanding of free will.
+People who train in any sport or martial art are free agents. They should continue to move from training gym to gym until they find a place that suits their needs. Their needs will change over time as they make decisions about what they need to develop, and as they gain skills.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/free-will/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/not-just-theory/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Man Does Not Live By Theory Alone</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Thu Aug 23, 2007</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">Survival requires much more than irregular and brief seminar training, books, and videotapes. The only knowledge that provides instantaneous recall in an attack situation is reflexive, or muscle memory. This comes with intense, repetitive, long-term training in proper technique with proper coaching. Seminars, books, and videotapes are great to augment regular training.
+&ldquo;Trust your instincts&rdquo; means let your reflexive response lead you. Don&rsquo;t hobble yourself with thought. An interesting test of this is if you ask someone the question &ldquo;what would you do if someone came up to you and [insert violent attack here]?</p>
+        <a href="http://jitshappens.herokuapp.com/blog/not-just-theory/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/jenny-thomas/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Jenny Thomas, AJJ Hall of Famer</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Fri Feb 04, 2011</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">While Jenny is now retired from competitive Jiu-Jitsu, she was an early super-star at Austin Jiu-Jitsu. This page recognizes her accomplishments.
+Background Jenny Thomas of Austin, Texas began training at the age of 7. She began competing at the age of 9 and coaching kids in ground fighting at 14. She was the Austin Jiu-Jitsu Assistant Coach for Children&rsquo;s Programs. She trained with the Austin Jiu-Jitsu adult competition team and was a competitive swimmer with her high school team, Longhorn Aquatics in Austin, and The University of Chicago&rsquo;s varsity women&rsquo;s team.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/jenny-thomas/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+                    <div class="flex-item">
+                        
+
+<script>
+function redir( gohere ){
+  window.location.href = gohere;
+  return false;
+}
+</script>
+<div class="page-item-container">
+    
+    <div class="page-item-content" onclick="redir(&#34;http://jitshappens.herokuapp.com/blog/swiss-cheese/&#34;)">
+        <header>
+            
+            <h2 class="page-item-title">Martial Arts Training is Like Swiss Cheese</h2>
+            
+            
+            
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Aug 23, 2003</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+
+        </header>
+        <p class="page-item-summary">While it&rsquo;s cool and somewhat self-indulgent to say I spent 9 years getting 2 black belts in Karate, in reality it&rsquo;s kind of like having a PhD. It looks really good on the wall and it&rsquo;s a great conversation starter, but it doesn&rsquo;t really mean much on the streets. I have grown much more in training in different arts for shorter timeframes (say, 2 to 6 years). Why? Because no martial art is perfect.</p>
+        <a href="http://jitshappens.herokuapp.com/blog/swiss-cheese/" class="page-item-btn shake ">
+            More...
+        </a>
+        <footer>
+        </footer>
+    </div>
+</div>
+
+                    </div>
+                
+            
+        </div>
+        
+
+    <ul class="pagination">
+        
+            <li class="disabled">
+                <a href="#!">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+            </li>
+            
+            
+                <li class="active">
+                    <a href="http://jitshappens.herokuapp.com//blog/">1</a>
+                </li>
+            
+            <li class="disabled">
+                <a href="#!">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        
+    </ul>
+
+
+
+    </section>
+
+    
+
+
+<script src="http://jitshappens.herokuapp.com/js/materialize.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://jitshappens.herokuapp.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://jitshappens.herokuapp.com/js/lightbox.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+

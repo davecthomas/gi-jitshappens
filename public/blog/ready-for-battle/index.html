@@ -1,0 +1,430 @@
+
+
+
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
+    
+    <meta name="generator" content="Hugo 0.17" />
+    <meta name="generation-date" content="2017-07-01 16:40:39.411007415 -0700 PDT">
+    <title>Ready for Battle &middot; Austin Jiu-Jitsu</title>
+    <link rel="shortcut icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    <link rel="icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/font-awesome.min.css">
+
+
+<style>
+@font-face {
+    font-family: 'Campton';
+    src: url('/fonts/CamptonMedium.otf');
+}
+@font-face {
+    font-family: 'Pythia';
+    src: url('/fonts/pythia.ttf');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/fonts/Syncopate-Regular.ttf');
+}
+</style>
+
+
+    
+    <link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/main.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/con11.css">
+
+
+
+    <script src="http://jitshappens.herokuapp.com/js/modernizr-latest.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/lazysizes.min.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/ls.noscript.min.js"></script>
+    
+    <script src="http://jitshappens.herokuapp.com/js/jquery-2.1.4.min.js"></script>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-286848-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+
+    </script>
+
+    
+    <script>
+    $(document).ready(function(){
+
+      $("#fontsizer-small").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.4rem"});
+        $("h2").animate({"font-size":"2.2rem"});
+        $("p").animate({"font-size":"1.1rem"});
+
+      });
+
+      $("#fontsizer-medium").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.6rem"});
+        $("h2").animate({"font-size":"2.4rem"});
+        $("p").animate({"font-size":"1.3rem"});
+
+      });
+
+      $("#fontsizer-large").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"3rem"});
+        $("h2").animate({"font-size":"2rem"});
+        $("p").animate({"font-size":"1.4rem" });
+
+      });
+
+      $( "a" ).click(function() {
+       $("a").removeClass("selected");
+      $(this).addClass("selected");
+
+     });
+
+    });
+    </script>
+
+    
+</head>
+
+
+<body class="page-colors minimum-viewport-height">
+
+    
+
+<nav class="main-menu menu-colors ">
+    <ul class="menu menu-colors no-list-float ajjgoldback">
+        <li><a href="http://jitshappens.herokuapp.com/" class="hoverglow shadow"><i class="fa fa-home fa-2x"></i></a></li>
+        
+        <li><a href="#!" data-lightbox-id="searchbox" class="hoverglow shadow"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                
+                <li>
+                    <a href="https://goo.gl/G8FMu2"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="/blogs/jits-happens"  target="_self" class="hoverglow shadow">
+                      
+                        <i class="fa fa-rss fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://twitter.com/austinjiujitsu"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-twitter fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.facebook.com/austinjiujitsu.jitshappens"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-facebook fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.youtube.com/davecthomasatx"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-youtube fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="https://get.google.com/u/3/albumarchive/111656665341965456714?source=pwa&amp;pageId=none"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-picture-o fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.bjjtech.com/"  target="_self" class="hoverglow shadow">
+                      
+                      <span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span>
+                      
+                    </a>
+                </li>
+            
+        
+        
+    </ul>
+</nav>
+
+<style>
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+        height: 26px !important;
+        margin-top: 0 !important;
+        min-width: 13px !important;
+        padding: 5px 26px !important;
+        width: 68px !important;
+    }
+</style>
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <div>
+  <script>
+    (function() {
+      var cx = '000430257115162997067:_gxc-ddgtgc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search enableAutoComplete="true"></gcse:search>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="main-content">
+
+        <div class="center-space">
+
+            <div class="article-colors">
+                
+                <article>
+                    <header>
+                        <h1 class="article-title">Ready for Battle</h1>
+                        <h5 class="article-subtitle">Competition Prep</h5>
+                        
+                        
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Thu Nov 20, 2008</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+        <span class="separator">|</span>
+        
+<ul class="tags">
+   <li>
+        <i class="fa fa-tags"></i>
+    </li>
+
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/bjj">bjj</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/competing">competing</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/blog">blog</a></li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="fontsizer">
+    <ul class="fontsizer">
+        <li><a href="#" id="fontsizer-small">A</a></li>
+        <li><a href="#" id="fontsizer-medium" class="selected">A</a></li>
+        <li><a href="#" id="fontsizer-large">A</a></li>
+    </ul>
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+                          
+                    </header>
+
+                    <hr>
+                    <div class="article-section-container "
+                    style="">
+                    <section>
+                        
+                            <p>Here are some thoughts to help everyone get ready for battle.</p>
+
+<ol>
+<li>Stay hydrated. Keep taking small drinks all day. You’ll need to use the restroom continually, but it will keep your body ready to go. Avoid soda and caffeine.</li>
+<li>Food. Eat a good meal the night before. Carb load, but don’t eat a huge breakfast. Starting with breakfast on the day of the competition you should be having very small snack-sized meals. Once I get to the competition, I won’t put more than a bite of a protein bar or half a banana in my belly every 2 hours. Before breakfast starts wearing off, start eating small, healthy snacks. I like dried fruit, yogurt, trail mix, and nibbles of protein bars. Power Gel is one of the best ways of getting quick replacement without putting “pukables” in your belly. If you eat or drink too much, you will puke.</li>
+<li>Prepare to wait. The waiting puts a huge strain on your brain and your body during a competition. Bring a good chair and entertainment. The bleachers are the pits. Not every venue will have space for you to set up a cozy folding chair, but bring them just in case. iPods, games, books, cards, …</li>
+<li>Watch your competition. This is a crucial intelligence gathering opportunity. Where are they strongest? Weakest? What is their coach telling them?</li>
+<li>Warm up. Don’t fight with cold muscles. You will tire much faster, be much weaker, less flexible, and less in the “fighting mindset” if you don’t warm up. Warm up and get psyched for your match. The first match is always the hardest. Trust me on this. You’ll be very tired after your first match and you’ll think “I can’t do that again.” But you can. As your body gets into “battle mode” it becomes easier to fight later matches. Flow rolling is great for warming up.</li>
+<li>Know the rules. We’ve discussed them in class. If you have any questions, ask. There will be a rules review before the competition. You can ask questions of the head referee then.</li>
+<li>Kids: stay close. It may seem like fun running around a big venue space on a weekend, but don’t roam far, and don’t get in the way of the other competitors or officials. Always tell a parent where you are going if you leave the mat area.</li>
+<li>Fight intelligently:
+
+<ol>
+<li>Tips to managing your match intelligently</li>
+<li>Take the time to get your points on your way through the match.</li>
+<li>Remember the 3 second rule: stay in position for 3 seconds to get your points.</li>
+<li>If you are down on points, you must work hard to overcome this. If your opponent is winning, you may notice he starts to stall (he stops working and holds his position). It is crucial that you do your best to turn up the heat on a staller. Even though it is officially against the rules, most refs don’t take action against stalling (unfortunately).</li>
+<li>Remember the knee on belly position. It is the easiest 2 points to get that most people never take advantage of.</li>
+<li>Always defend yourself aggressively when you are in a bad spot. Kids: If your opponent puts a submission move on you (like starts an armbar), you must show the referee that you are working to escape it or he will stop the match even before you tap. This is especially the case for chokes. I’m glad refs do this, since it is the best way to be safe with kids on the mat.</li>
+<li>Be technical, not sloppy. Set up a submission as technically as you know how to. Pass the guard the way your coach taught you. People tend to go a little too fast in competition; often this speed outstrips their technical ability.</li>
+</ol></li>
+<li>The mind game. It is absolutely true that 80% of your fight is mental. It doesn&rsquo;t matter how tough your opponent looks. They all tap if you put the right moves on them. Trust your training and believe in yourself. Never let your opponent know you are nervous or tired. If the ref stops the match to restart you, jump up and show the opponent and his coach that you have enough juice left for 1000 fights (especially if you are just about out of gas!). It is especially fun if you stand up first and offer your opponent a hand standing up. It sends 2 great messages: you are a great sport, and you have more juice left than your opponent. Never groan or yell during the match. It may end the match immediately (a yell is a tap to most referees).</li>
+<li>Bring cameras. There is nothing more valuable than getting your matches on video.</li>
+<li>Cheer on your team. If you aren&rsquo;t on deck for a match, you should be at mat side when a team mate is competing. Give them words of encouragement, but don’t disrupt my coaching. If your coach is saying something, keep your cheers in check for a moment. We are a team in a sport of individual competitors. One of the only ways you have to show team unity is being there for your teammate&rsquo;s matches.</li>
+<li>Keep your coach in the loop. If you are going to compete in the next 10 minutes or so, get word to your coach. If your coach is busy with another match when yours is called, tell the table officials (each mat has a separate table) that your coach is busy elsewhere. They will almost always delay a match (they&rsquo;ll bring the next match on) to allow for the coach to get there. Don&rsquo;t stress out about it.</li>
+<li>Be a good sport. Shake your opponent&rsquo;s hand before and after the match. Also shake the hand of your opponent&rsquo;s coach after the match. Even if you’re upset about a loss or exhausted, crawl over and shake their hand and tell them “good match.”</li>
+<li>Show up clean. Make sure your nails are cut and your gi is clean. A good ref won&rsquo;t let you compete otherwise.</li>
+<li>Be on time, but don&rsquo;t be surprised if they don&rsquo;t start on time. They never start on time, but you should be ready anyway.</li>
+<li>Don&rsquo;t worry about winning. Of course you want to win, but if this is your first competition, you will learn valuable lessons regardless if you win or lose. Enjoy yourself and try your best. You will make mistakes but you&rsquo;ll get them corrected over time. Tap if it hurts. No biggie.</li>
+<li>Pre-register. Don&rsquo;t ever register the day of the competition. The reason these things never start on time is that too many people procrastinate getting themselves registered. This creates impossible problems for bracketing.</li>
+<li>Train hard and get ready. Cross train for better cardio and strength.</li>
+</ol>
+
+                        
+                    </section>
+                  </div>
+                  
+<section>
+  <div class="share-head">Please Share</div>
+
+  <div class="chip ajjgoldback">
+  <a class="fa fa-twitter fa-2x sharea" href="https://twitter.com/share?text=Ready%20for%20Battle&amp;url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fready-for-battle%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="share">Twitter</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+  <a class="fa fa-facebook fa-2x sharea" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fready-for-battle%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="share">Facebook</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+    <a class="fa fa-google-plus fa-2x sharea" href="https://plus.google.com/share?url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fready-for-battle%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="share">Google+</span>
+    </a>
+</div>
+</section>
+
+
+                  
+
+
+                  </div>
+
+                    <footer class="right-align">
+                        <p><small>AustIn JIu-JItsu</small></p>
+                    </footer>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<script src="http://jitshappens.herokuapp.com/js/materialize.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://jitshappens.herokuapp.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://jitshappens.herokuapp.com/js/lightbox.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+

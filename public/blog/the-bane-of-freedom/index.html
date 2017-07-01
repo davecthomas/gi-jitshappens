@@ -1,0 +1,423 @@
+
+
+
+<!DOCTYPE html>
+<html 
+    lang="en-us"
+    class="no-js"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="QdSOQjuCajh1hI_33FrmWvBFlu2h0PrHNfXvdRhdpDA" />
+    
+    <meta name="generator" content="Hugo 0.17" />
+    <meta name="generation-date" content="2017-07-01 16:40:39.408866723 -0700 PDT">
+    <title>The Bane of Freedom &middot; Austin Jiu-Jitsu</title>
+    <link rel="shortcut icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    <link rel="icon" href="http://jitshappens.herokuapp.com/favicon.ico">
+    
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/materialize.min.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/font-awesome.min.css">
+
+
+<style>
+@font-face {
+    font-family: 'Campton';
+    src: url('/fonts/CamptonMedium.otf');
+}
+@font-face {
+    font-family: 'Pythia';
+    src: url('/fonts/pythia.ttf');
+}
+@font-face {
+    font-family: 'Syncopate';
+    src: url('/fonts/Syncopate-Regular.ttf');
+}
+</style>
+
+
+    
+    <link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/styles/railscasts.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/lightbox.css">
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/main.css">
+
+
+
+<link rel="stylesheet" href="http://jitshappens.herokuapp.com/css/con11.css">
+
+
+
+    <script src="http://jitshappens.herokuapp.com/js/modernizr-latest.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/lazysizes.min.js"></script>
+    <script src="http://jitshappens.herokuapp.com/js/ls.noscript.min.js"></script>
+    
+    <script src="http://jitshappens.herokuapp.com/js/jquery-2.1.4.min.js"></script>
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-286848-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        lazySizesConfig.addClasses = true;
+        lazySizesConfig.loadMode = 2;
+
+    </script>
+
+    
+    <script>
+    $(document).ready(function(){
+
+      $("#fontsizer-small").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.4rem"});
+        $("h2").animate({"font-size":"2.2rem"});
+        $("p").animate({"font-size":"1.1rem"});
+
+      });
+
+      $("#fontsizer-medium").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"2.6rem"});
+        $("h2").animate({"font-size":"2.4rem"});
+        $("p").animate({"font-size":"1.3rem"});
+
+      });
+
+      $("#fontsizer-large").click(function(event){
+        event.preventDefault();
+        $("h1").animate({"font-size":"3rem"});
+        $("h2").animate({"font-size":"2rem"});
+        $("p").animate({"font-size":"1.4rem" });
+
+      });
+
+      $( "a" ).click(function() {
+       $("a").removeClass("selected");
+      $(this).addClass("selected");
+
+     });
+
+    });
+    </script>
+
+    
+</head>
+
+
+<body class="page-colors minimum-viewport-height">
+
+    
+
+<nav class="main-menu menu-colors ">
+    <ul class="menu menu-colors no-list-float ajjgoldback">
+        <li><a href="http://jitshappens.herokuapp.com/" class="hoverglow shadow"><i class="fa fa-home fa-2x"></i></a></li>
+        
+        <li><a href="#!" data-lightbox-id="searchbox" class="hoverglow shadow"><i class="fa fa-search fa-2x"></i></a></li>
+        
+            <li class="blue-grey-text" style="border-top: 1px solid;"></li>
+            
+                
+                <li>
+                    <a href="https://goo.gl/G8FMu2"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="/blogs/jits-happens"  target="_self" class="hoverglow shadow">
+                      
+                        <i class="fa fa-rss fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://twitter.com/austinjiujitsu"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-twitter fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.facebook.com/austinjiujitsu.jitshappens"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-facebook fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.youtube.com/davecthomasatx"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-youtube fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="https://get.google.com/u/3/albumarchive/111656665341965456714?source=pwa&amp;pageId=none"  target="_blank" class="hoverglow shadow">
+                      
+                        <i class="fa fa-picture-o fa-2x"></i>
+                        
+                    </a>
+                </li>
+            
+                
+                <li>
+                    <a href="http://www.bjjtech.com/"  target="_self" class="hoverglow shadow">
+                      
+                      <span class="bjjt_tag ajjnowrap ajjtinytext hoverglow">BJJTech</span>
+                      
+                    </a>
+                </li>
+            
+        
+        
+    </ul>
+</nav>
+
+<style>
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+        height: 26px !important;
+        margin-top: 0 !important;
+        min-width: 13px !important;
+        padding: 5px 26px !important;
+        width: 68px !important;
+    }
+</style>
+<div id="searchbox" class="no-display">
+    <div class="valign-wrapper fill-container">
+        <div class="valign large-form horizontal-center-hack">
+            <div>
+  <script>
+    (function() {
+      var cx = '000430257115162997067:_gxc-ddgtgc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <gcse:search enableAutoComplete="true"></gcse:search>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="main-content">
+
+        <div class="center-space">
+
+            <div class="article-colors">
+                
+                <article>
+                    <header>
+                        <h1 class="article-title">The Bane of Freedom</h1>
+                        <h5 class="article-subtitle">The Kingdom, The Castle, and The Keys</h5>
+                        
+                        
+<div class="extras-container">
+    
+<div class="authors">
+<ul class="authors">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+
+        <li><a href="http://jitshappens.herokuapp.com/coaches/dave-thomas">
+              <div class="author-thumbnail" style="background-image: url('http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg');">
+              <div class="author-over-thumbnail">Dave Thomas</div>
+            </div></a></li></ul>
+</div>
+
+    <div class="otherextras-right">
+        <time class="date-color">Sat Aug 23, 2003</time>
+        <span class="separator">|</span>
+        
+<ul class="categories">
+    <li>
+        <i class="fa fa-book"></i>
+    </li>
+    
+</ul>
+
+        
+        <span class="separator">|</span>
+        
+<ul class="tags">
+   <li>
+        <i class="fa fa-tags"></i>
+    </li>
+
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/bjj">bjj</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/opinion">opinion</a></li>
+    
+        <li><a href="http://jitshappens.herokuapp.com/tags/blog">blog</a></li>
+    
+</ul>
+
+        
+    </div>
+    
+    <div class="fontsizer">
+    <ul class="fontsizer">
+        <li><a href="#" id="fontsizer-small">A</a></li>
+        <li><a href="#" id="fontsizer-medium" class="selected">A</a></li>
+        <li><a href="#" id="fontsizer-large">A</a></li>
+    </ul>
+    </div>
+    
+    <div class="endextras"></div>
+</div>
+                          
+                    </header>
+
+                    <hr>
+                    <div class="article-section-container "
+                    style="">
+                    <section>
+                        
+                            
+
+<h5 id="a-warning-about-instructors-who-put-themselves-before-you">A warning about instructors who put themselves before you.</h5>
+
+<p>Many instructors treat their knowledge as a treasure that is only bestowed upon those in their inner circle: their most trusted students who have shown loyalty, their knights. All the other students are serfs who have not yet proven their worth to the king. All live within his kingdom. No bonds are made or allowed with other neighboring kingdoms. You can join the king, but you must move within the walls, and never leave again. Anyone who strays outside the walls of the kingdom are banished forever. They are suspected as spies who may have sold the keys of the castle to another.</p>
+
+<p>These are the kingdom-building realities of an egomaniacal instructor with a distorted world-view of the purpose of knowledge. Knowledge is to be set free. Allow your students to seek it anywhere they may. The borders must be porous to allow for great relationships with your neighbors, sharing of knowledge, and creation of new knowledge from old. Encourage cross training anywhere.</p>
+
+<p>Another sign of kingdom-building is the treatment of questions from the students. I have seen instructors who don&rsquo;t answer questions or do so in such an oblique fashion that over time, questions stop from the students. I have had one instructor who would answer some questions with &ldquo;That will cost $100 and one hour of your time,&rdquo; meaning the student could get an answer only if they paid for a private lesson with the high-priced black belt. When a new student joins, they wonder why nobody else is asking questions. They soon learn their lesson with a belittling experience in front of the class. Why create secrets, mystery, and intrigue? In doing this, the knowledge instructors hold is locked in the castle tower. Foster innovation, research, exploration, and inquisitiveness.</p>
+
+<p>Build a school that is about building students, not about building a kingdom.</p>
+
+<h3 id="learning-the-lesson-from-another-service">Learning the Lesson From Another Service</h3>
+
+<p>Let&rsquo;s try a simple analogy. Forget martial arts for a minute. Let&rsquo;s say you want to be a doctor.</p>
+
+<p>You pick the best medical school around, because you want to be the best doctor you can be. You want to save lives and you believe you can be a success. After doing a great job in pre-med, you have envisioned a dream of opening a small medical clinic where you can better the lives of a small community. Your friends and family believe in you. But more than anything, you feel compelled by your principles to pursue this dream.</p>
+
+<p>You go to the medical school and do a great job, year after year. You expand your knowledge and arm yourself with the tools to save lives. The dean of the college counsels you, shares with you his profound knowledge, and treats you like family. Your professors are top notch. You take an internship with a small clinic to diversify and deepen your experience. It turns out that this is more fulfilling than your class work because it demonstrates you understand real world application of what you have learned. You take other internships.  As you come closer to the end of med school, you organize opening your own clinic. You have imagined this whole time how this would work, and now it is becoming real. You excitedly share with others around you the slow process of creating this clinic as it unfolds. Your family, friends, and other students are happy for you and wish you the best. Your college dean and professors are proud. You embark on the greatest dream of your life and are blessed to actually love your job and the benefits your work bestows upon those you touch.</p>
+
+<p>During your years of practice, other doctors join you. You share your knowledge freely, discover new methods, and publish these for all to learn from. Years later, a young doctor joins you. You mentor this doctor until he knows enough to go out and open a clinic of his own. You are sad to see him go. But much more than this, you are proud of their accomplishment and bless him as he makes his way onward. This young doctor considers you their lifelong friend and mentor. Their successes transitively become your successes. You unlocked the door for them.</p>
+
+<h3 id="instructors-unlock-the-door">Instructors: Unlock the Door</h3>
+
+<p>It is the dream of many martial artists to know enough to teach someday: to give back what they have been given. It is a shame that some martial arts instructors put more focus on protecting their knowledge than creating an environment of limitless growth. Instructors: know what your students seek. Put their goals before you or get out of the business. <a href="(http://jitshappens.herokuapp.com/blog/train-for-yourself/)">That&rsquo;s what service is all about</a>. <em>Students are customers.</em></p>
+
+                        
+                    </section>
+                  </div>
+                  
+<section>
+  <div class="share-head">Please Share</div>
+
+  <div class="chip ajjgoldback">
+  <a class="fa fa-twitter fa-2x sharea" href="https://twitter.com/share?text=The%20Bane%20of%20Freedom&amp;url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fthe-bane-of-freedom%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="share">Twitter</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+  <a class="fa fa-facebook fa-2x sharea" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fthe-bane-of-freedom%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="share">Facebook</span>
+  </a>
+</div>
+  <div class="chip ajjgoldback">
+    <a class="fa fa-google-plus fa-2x sharea" href="https://plus.google.com/share?url=http%3a%2f%2fjitshappens.herokuapp.com%2fblog%2fthe-bane-of-freedom%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="share">Google+</span>
+    </a>
+</div>
+</section>
+
+
+                  
+
+
+                  </div>
+
+                    <footer class="right-align">
+                        <p><small>AustIn JIu-JItsu</small></p>
+                    </footer>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+<script src="http://jitshappens.herokuapp.com/js/materialize.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/imagesloaded.pkgd.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/masonry.pkgd.min.js"></script>
+
+
+    
+    <script src="http://jitshappens.herokuapp.com/js/highlight.pack.js"></script>
+
+
+
+<script src="http://jitshappens.herokuapp.com/js/lightbox.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/jquery.infinitescroll.min.js"></script>
+
+
+<script src="http://jitshappens.herokuapp.com/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
