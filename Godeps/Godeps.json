@@ -1,0 +1,9 @@
+{
+	"ImportPath": "jitshappens/go-jitshappens",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": []
+}

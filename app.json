@@ -1,0 +1,7 @@
+{
+  "name": "JitsHappens",
+  "description": "This is the golang Heroku web app that references JitsHappens.com, Dave Thomas' Jiu-Jitsu Haven in Seattle, Washington",
+  "image": "heroku/go:1.8",
+  "website": "http://github.com/heroku/go-getting-started",
+  "repository": "http://github.com/davecthomas/go-jitshappens"
+}
