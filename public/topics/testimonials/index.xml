@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Austin Jiu-Jitsu</title>
-    <link>http://jitshappens.herokuapp.com/topics/testimonials/index.xml</link>
-    <description>Recent content on Austin Jiu-Jitsu</description>
+    <title>Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://jitshappens.com/topics/testimonials/index.xml</link>
+    <description>Recent content on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>AustIn JIu-JItsu</copyright>
-    <atom:link href="http://jitshappens.herokuapp.com/topics/testimonials/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>jits</copyright>
+    <atom:link href="http://jitshappens.com/topics/testimonials/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Community</title>
-      <link>http://jitshappens.herokuapp.com/doing-good/community/</link>
+      <link>http://jitshappens.com/doing-good/community/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/doing-good/community/</guid>
-      <description>&lt;p&gt;Austin Jiu-Jitsu is committed to giving to charitable organizations and donating volunteer time to community groups. In addition, we have sponsored many talented athletes through the years, based on their commitment, aptitude and financial need.&lt;/p&gt;
+      <guid>http://jitshappens.com/doing-good/community/</guid>
+      <description>&lt;p&gt;Coach Dave Thomas is committed to giving to charitable organizations and donating volunteer time to community groups. In addition, He has sponsored many talented athletes through the years, based on their commitment, aptitude and financial need.&lt;/p&gt;
 
 &lt;p&gt;Susan G. Komen for the Cure Austin.&lt;/p&gt;
 
@@ -59,10 +59,10 @@
     
     <item>
       <title>Testimonials</title>
-      <link>http://jitshappens.herokuapp.com/doing-good/testimonials/</link>
+      <link>http://jitshappens.com/doing-good/testimonials/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/doing-good/testimonials/</guid>
+      <guid>http://jitshappens.com/doing-good/testimonials/</guid>
       <description>
 
 &lt;p&gt;These are from internationally renowned masters in the art, past instructors, current students and parents of students, current and former training partners, and readers of David Thomas&amp;rsquo; online articles on martial arts. We are humbled by the kind words of recognition from all of you.&lt;/p&gt;

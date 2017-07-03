@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Austin Jiu-Jitsu</title>
-    <link>http://jitshappens.herokuapp.com/tags/drills/index.xml</link>
-    <description>Recent content on Austin Jiu-Jitsu</description>
+    <title>Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://jitshappens.com/tags/drills/index.xml</link>
+    <description>Recent content on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>AustIn JIu-JItsu</copyright>
-    <atom:link href="http://jitshappens.herokuapp.com/tags/drills/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>jits</copyright>
+    <atom:link href="http://jitshappens.com/tags/drills/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Unsolvable Problem</title>
-      <link>http://jitshappens.herokuapp.com/blog/the-unsolvable-problem/</link>
+      <link>http://jitshappens.com/blog/the-unsolvable-problem/</link>
       <pubDate>Sun, 23 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/blog/the-unsolvable-problem/</guid>
+      <guid>http://jitshappens.com/blog/the-unsolvable-problem/</guid>
       <description>
 
 &lt;p&gt;This is a key lesson to learn in battle of any kind and is particularly appropriate to the way I approach application of Brazilian Jiu-Jitsu technique to a fight or sparring match.&lt;/p&gt;

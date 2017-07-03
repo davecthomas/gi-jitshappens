@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Austin Jiu-Jitsu</title>
-    <link>http://jitshappens.herokuapp.com/topics/contact/index.xml</link>
-    <description>Recent content on Austin Jiu-Jitsu</description>
+    <title>Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://jitshappens.com/topics/contact/index.xml</link>
+    <description>Recent content on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>AustIn JIu-JItsu</copyright>
-    <atom:link href="http://jitshappens.herokuapp.com/topics/contact/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>jits</copyright>
+    <atom:link href="http://jitshappens.com/topics/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Contact Austin Jiu-Jitsu</title>
-      <link>http://jitshappens.herokuapp.com/post/contact/</link>
+      <title>Contact Dave</title>
+      <link>http://jitshappens.com/post/contact/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/post/contact/</guid>
+      <guid>http://jitshappens.com/post/contact/</guid>
       <description>
-
-&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/coach-dtjj.png&#34; alt=&#34;say hi&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;phone-or-text&#34;&gt;Phone or Text&lt;/h3&gt;
-
-&lt;p&gt;Text preferred, as we get lots of solicitors &lt;img src=&#34;http://jitshappens.herokuapp.com/img/taproll.png&#34; alt=&#34;txt us&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;located-at-4220-s-lamar-blvd-400-austin-tx-78704-https-goo-gl-maps-bde7mea3yzt-location&#34;&gt;Located at &lt;a href=&#34;https://goo.gl/maps/bDe7mea3yzt&#34; title=&#34;location&#34;&gt;4220 S Lamar Blvd #400, Austin, TX 78704&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;We are located in Suite 400, where we share space with Traditional Martial Arts Academy. Look for suite 400 in the right corner of the brown brick retail center.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/location/&#34;&gt;Read more about our location here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We are only open during class times, so please see our &lt;a href=&#34;http://jitshappens.herokuapp.com/post/schedule/&#34;&gt;schedule&lt;/a&gt; to plan a visit.&lt;/p&gt;
 
 &lt;h3 id=&#34;social-media&#34;&gt;Social Media&lt;/h3&gt;
 
-&lt;p&gt;Click one of the links on the left to get to our &lt;a href=&#34;https://www.facebook.com/austinjiujitsu.jitshappens&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/austinjiujitsu&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/austinjiujitsu&#34;&gt;YouTube&lt;/a&gt;, or other pages.&lt;/p&gt;
+&lt;p&gt;Click one of the links on the left to get to our &lt;a href=&#34;https://www.facebook.com/davecthomasatx&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/davecthomas&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A&#34;&gt;YouTube&lt;/a&gt;, or other pages.&lt;/p&gt;
+
+&lt;h3 id=&#34;learn-more-about-coach-dave-thomas&#34;&gt;Learn More about coach Dave Thomas&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jitshappens.com/post/dave-thomas/&#34;&gt;About Coach Dave&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

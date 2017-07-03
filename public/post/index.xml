@@ -1,51 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Austin Jiu-Jitsu</title>
-    <link>http://jitshappens.herokuapp.com/post/index.xml</link>
-    <description>Recent content in Post-rsses on Austin Jiu-Jitsu</description>
+    <title>Post-rsses on Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://jitshappens.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>AustIn JIu-JItsu</copyright>
-    <lastBuildDate>Sun, 31 Jul 2016 15:25:09 -0500</lastBuildDate>
-    <atom:link href="http://jitshappens.herokuapp.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>jits</copyright>
+    <lastBuildDate>Fri, 29 Jul 2016 11:43:42 -0500</lastBuildDate>
+    <atom:link href="http://jitshappens.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Location</title>
-      <link>http://jitshappens.herokuapp.com/post/location/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/location/</guid>
-      <description>
-
-&lt;h4 id=&#34;austin-jiu-jitsu-is-at&#34;&gt;Austin Jiu-Jitsu is at&lt;/h4&gt;
-
-&lt;h4 id=&#34;4220-s-lamar-blvd-400-austin-tx-78704-https-goo-gl-maps-bde7mea3yzt-location&#34;&gt;&lt;a href=&#34;https://goo.gl/maps/bDe7mea3yzt&#34; title=&#34;location&#34;&gt;4220 S Lamar Blvd #400, Austin, TX 78704&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/map.png&#34; alt=&#34;Austin Jiu-Jitsu map&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We are located in Suite 400, where we share space with Traditional Martial Arts Academy. Look for suite 400 in the right corner of the brown brick retail center.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Schedule</title>
-      <link>http://jitshappens.herokuapp.com/post/schedule/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/schedule/</guid>
-      <description>&lt;p&gt;See the calendar below for our class times. Each program has separate classes, regularly scheduled each week.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://calendar.google.com/calendar/embed?src=pue2vn7f8sn56onm0kufm0iuh0%40group.calendar.google.com&amp;ctz=America/Chicago&#34; style=&#34;border: 0&#34; width=&#34;800&#34; height=&#34;600&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What We Do</title>
-      <link>http://jitshappens.herokuapp.com/post/services/</link>
+      <title>What I Do</title>
+      <link>http://jitshappens.com/post/services/</link>
       <pubDate>Fri, 29 Jul 2016 11:43:42 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/post/services/</guid>
+      <guid>http://jitshappens.com/post/services/</guid>
       <description>
 
 &lt;h3 id=&#34;brazilian-jiu-jitsu&#34;&gt;Brazilian Jiu-Jitsu&lt;/h3&gt;
@@ -54,118 +24,48 @@
 
 &lt;p&gt;Popularized by the Gracie and UFC and proven in fights world-wide, Brazilian Jiu-Jitsu will give you an edge over larger, stronger opponents. We&amp;rsquo;ll help you gain an advantage through superior technique, leverage, speed, and stamina.&lt;/p&gt;
 
-&lt;h3 id=&#34;our-guarantee&#34;&gt;Our Guarantee&lt;/h3&gt;
-
-&lt;p&gt;Training with Austin Jiu-Jitsu is guaranteed to raise your awareness, understanding, and abilities in self-defense. We will help you improve your level of physical fitness and will teach you how to fight successfully. When combined with our strength and wrestling classes, you will be even more fit to win!&lt;/p&gt;
-
-&lt;h3 id=&#34;our-specialties&#34;&gt;Our Specialties&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/brazilian-jiu-jitsu/&#34;&gt;Brazilian Jiu-Jitsu&lt;/a&gt; &amp;amp; Submission Grappling&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://jitshappens.com/post/brazilian-jiu-jitsu/&#34;&gt;Brazilian Jiu-Jitsu&lt;/a&gt; &amp;amp; Submission Grappling&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Strength and Mobility&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;our-history&#34;&gt;Our History&lt;/h3&gt;
+&lt;h3 id=&#34;my-history&#34;&gt;My History&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;We have been teaching Austin how to grapple for 14 years!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I have been coaching BJJ since 2003&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Austin Jiu-Jitsu was founded in 2003. Our gym is committed to developing student potential through safe, balanced, and effective self-defense training, leveraging the concepts Brazilian Jiu-Jitsu and ground fighting (Submission Grappling).&lt;/p&gt;
+&lt;p&gt;I founded &lt;a href=&#34;http://austinjiujitsu.com&#34;&gt;Austin Jiu-Jitsu&lt;/a&gt; in 2003 and developed that gym and a great group of students over 14 years. My committed to developing student potential through safe, balanced, and effective self-defense training, leveraging the concepts Brazilian Jiu-Jitsu and ground fighting (Submission Grappling) is as strong today as it was when I started.&lt;/p&gt;
 
-&lt;h3 id=&#34;our-coaches&#34;&gt;Our coaches&lt;/h3&gt;
+&lt;h3 id=&#34;about-head-coach-david-thomas&#34;&gt;About Head Coach David Thomas&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/coaches/&#34;&gt;About our coaches&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://jitshappens.com/post/dave-thomas/&#34;&gt;About Coach Dave&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Contact Austin Jiu-Jitsu</title>
-      <link>http://jitshappens.herokuapp.com/post/contact/</link>
+      <title>Contact Dave</title>
+      <link>http://jitshappens.com/post/contact/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/post/contact/</guid>
+      <guid>http://jitshappens.com/post/contact/</guid>
       <description>
-
-&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/coach-dtjj.png&#34; alt=&#34;say hi&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;phone-or-text&#34;&gt;Phone or Text&lt;/h3&gt;
-
-&lt;p&gt;Text preferred, as we get lots of solicitors &lt;img src=&#34;http://jitshappens.herokuapp.com/img/taproll.png&#34; alt=&#34;txt us&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;located-at-4220-s-lamar-blvd-400-austin-tx-78704-https-goo-gl-maps-bde7mea3yzt-location&#34;&gt;Located at &lt;a href=&#34;https://goo.gl/maps/bDe7mea3yzt&#34; title=&#34;location&#34;&gt;4220 S Lamar Blvd #400, Austin, TX 78704&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;We are located in Suite 400, where we share space with Traditional Martial Arts Academy. Look for suite 400 in the right corner of the brown brick retail center.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/location/&#34;&gt;Read more about our location here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We are only open during class times, so please see our &lt;a href=&#34;http://jitshappens.herokuapp.com/post/schedule/&#34;&gt;schedule&lt;/a&gt; to plan a visit.&lt;/p&gt;
 
 &lt;h3 id=&#34;social-media&#34;&gt;Social Media&lt;/h3&gt;
 
-&lt;p&gt;Click one of the links on the left to get to our &lt;a href=&#34;https://www.facebook.com/austinjiujitsu.jitshappens&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/austinjiujitsu&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/austinjiujitsu&#34;&gt;YouTube&lt;/a&gt;, or other pages.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Membership Plans</title>
-      <link>http://jitshappens.herokuapp.com/post/plans/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/plans/</guid>
-      <description>
+&lt;p&gt;Click one of the links on the left to get to our &lt;a href=&#34;https://www.facebook.com/davecthomasatx&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/davecthomas&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A&#34;&gt;YouTube&lt;/a&gt;, or other pages.&lt;/p&gt;
 
-&lt;h3 id=&#34;brazilian-jiu-jitsu-and-submission-grappling&#34;&gt;Brazilian Jiu-Jitsu and Submission Grappling&lt;/h3&gt;
+&lt;h3 id=&#34;learn-more-about-coach-dave-thomas&#34;&gt;Learn More about coach Dave Thomas&lt;/h3&gt;
 
-&lt;p&gt;Learn more about our &lt;a href=&#34;{{ &amp;lt; ref &amp;quot;post/brazilian-jiu-jitsu.md&amp;quot; &amp;gt;}}&#34;&gt;BJJ program&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Classes are $90 per month for unlimited classes. We have 3 classes per week.
-Drop-in fees are $25 per class.
-Private lessons with &lt;a href=&#34;http://jitshappens.herokuapp.com/post/john-martinich/&#34;&gt;John&lt;/a&gt; are $90. Private lessons with &lt;a href=&#34;http://jitshappens.herokuapp.com/post/dave-thomas/&#34;&gt;Dave&lt;/a&gt; are $105.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Our Coaches</title>
-      <link>http://jitshappens.herokuapp.com/post/coaches/</link>
-      <pubDate>Fri, 29 Jul 2016 11:43:42 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/coaches/</guid>
-      <description>
-
-&lt;h3 id=&#34;head-coach-john-martinich&#34;&gt;Head Coach John Martinich&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/john-martinich/&#34;&gt;About John&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;founding-coach-david-thomas&#34;&gt;Founding Coach David Thomas&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/dave-thomas/&#34;&gt;About Dave&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;coach-dan-borth&#34;&gt;Coach Dan Borth&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/dan-borth/&#34;&gt;About Dan&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Coach John Martinich</title>
-      <link>http://jitshappens.herokuapp.com/post/john-martinich/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/john-martinich/</guid>
-      <description>&lt;p&gt;Austin Jiu-Jitsu Head Coach John Martinich is a Brown Belt under founding coach David Thomas. John is known for his incredible technical ability and passion for dissecting technique and sharing his greatness. As a native Austinite and Computer Science grad from UT, John has balanced his life well between family, work and play. Joining Austin Jiu Jitsu in 2003, he has developed a passion for the sport through coaching and competition. BJJ is a lifestyle for John through stress reduction, exercise and friendships. When he&amp;rsquo;s not at the gym, he&amp;rsquo;s at home with his wife and grappling with his two boys.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/authors/john-martinich.jpg&#34; alt=&#34;John Martinich&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://jitshappens.com/post/dave-thomas/&#34;&gt;About Coach Dave&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Coach Dave Thomas</title>
-      <link>http://jitshappens.herokuapp.com/post/dave-thomas/</link>
+      <link>http://jitshappens.com/post/dave-thomas/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/post/dave-thomas/</guid>
+      <guid>http://jitshappens.com/post/dave-thomas/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -182,11 +82,11 @@ Private lessons with &lt;a href=&#34;http://jitshappens.herokuapp.com/post/john-
 &lt;li&gt;An unconventional, creative fighting style&lt;/li&gt;
 &lt;li&gt;Development of a successful women&amp;rsquo;s program, which enjoys a significantly high ratio of women to men &amp;ndash; which is unusual in BJJ&lt;/li&gt;
 &lt;li&gt;Developing the talent of his team of coaches&lt;/li&gt;
-&lt;li&gt;His prolific writing on training, coaching, and service toward the student in his blog, &lt;a href=&#34;http://jitshappens.herokuapp.com/blog&#34;&gt;Jits Happens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;His prolific writing on training, coaching, and service toward the student in his blog, &lt;a href=&#34;http://jitshappens.com/blog&#34;&gt;Jits Happens&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The creation of &lt;a href=&#34;bjjtech.com&#34;&gt;BJJTech.com&lt;/a&gt;, the largest single-sourced collection of BJJ techniques on the web.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/authors/dave-thomas.jpg&#34; alt=&#34;Coach Dave&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://jitshappens.com/img/authors/dave-thomas.jpg&#34; alt=&#34;Coach Dave&#34; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&#34;background&#34;&gt;Background&lt;/h5&gt;
 
@@ -194,7 +94,7 @@ Private lessons with &lt;a href=&#34;http://jitshappens.herokuapp.com/post/john-
 
 &lt;h4 id=&#34;life-off-the-mats&#34;&gt;Life Off the Mats&lt;/h4&gt;
 
-&lt;p&gt;When he isn&amp;rsquo;t training and coaching, Dave enjoys a great &lt;a href=&#34;https://www.linkedin.com/in/dcthomas&#34;&gt;career&lt;/a&gt; in software product entrepreneurship, where he is a product leader at &lt;a href=&#34;http://indeed.com&#34;&gt;Indeed&lt;/a&gt;. He has two children, &lt;a href=&#34;http://jitshappens.herokuapp.com/blog/jenny-thomas/&#34;&gt;Jenny&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/user/budoatemaildotcom/search?query=zach&#34;&gt;Zach&lt;/a&gt;, who both grew up on the mats with him at Austin Jiu-Jitsu. Dave&amp;rsquo;s wife Christine previously led the Austin Jiu-Jitsu women&amp;rsquo;s program and has a &lt;a href=&#34;https://www.linkedin.com/in/christinegthomas&#34;&gt;career&lt;/a&gt; in high-tech finance. Dave and Christine both studied business at the &lt;a href=&#34;https://www.chicagobooth.edu/&#34;&gt;University of Chicago&amp;rsquo;s Booth School of Business&lt;/a&gt; (2016 and 2017 MBA grads).&lt;/p&gt;
+&lt;p&gt;When he isn&amp;rsquo;t training and coaching, Dave enjoys a great &lt;a href=&#34;https://www.linkedin.com/in/dcthomas&#34;&gt;career&lt;/a&gt; in software product entrepreneurship, where he is a product leader at &lt;a href=&#34;http://indeed.com&#34;&gt;Indeed&lt;/a&gt;. He has two children, &lt;a href=&#34;http://jitshappens.com/blog/jenny-thomas/&#34;&gt;Jenny&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/user/budoatemaildotcom/search?query=zach&#34;&gt;Zach&lt;/a&gt;, who both grew up on the mats with him at Austin Jiu-Jitsu. Dave&amp;rsquo;s wife Christine previously led the Austin Jiu-Jitsu women&amp;rsquo;s program and has a &lt;a href=&#34;https://www.linkedin.com/in/christinegthomas&#34;&gt;career&lt;/a&gt; in high-tech finance. Dave and Christine both studied business at the &lt;a href=&#34;https://www.chicagobooth.edu/&#34;&gt;University of Chicago&amp;rsquo;s Booth School of Business&lt;/a&gt; (2016 and 2017 MBA grads).&lt;/p&gt;
 
 &lt;h4 id=&#34;accomplishments-and-qualifications&#34;&gt;Accomplishments and Qualifications&lt;/h4&gt;
 
@@ -215,28 +115,16 @@ Private lessons with &lt;a href=&#34;http://jitshappens.herokuapp.com/post/john-
 
 &lt;h4 id=&#34;jits-happens&#34;&gt;Jits Happens&lt;/h4&gt;
 
-&lt;p&gt;Read Dave&amp;rsquo;s blog, &lt;a href=&#34;http://jitshappens.herokuapp.com/blog&#34;&gt;Jits Happens&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Coach Dan Borth</title>
-      <link>http://jitshappens.herokuapp.com/post/dan-borth/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/dan-borth/</guid>
-      <description>&lt;p&gt;Austin Jiu-Jitsu Coach Dan Borth is a Brown Belt under founding coach David Thomas. Dan is known for his innovative approach that has led to creation of numerous amazing submission moves. He cross trains with some of the best coaches in Austin, including NCAA All American Wrestler &lt;a href=&#34;http://lifeforce-fitness.net/jason-carr/&#34;&gt;Jason Carr&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://jitshappens.herokuapp.com/img/authors/dan-borth.jpg&#34; alt=&#34;Dan Borth&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Read Dave&amp;rsquo;s blog, &lt;a href=&#34;http://jitshappens.com/blog&#34;&gt;Jits Happens&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Brazilian Jiu-Jitsu</title>
-      <link>http://jitshappens.herokuapp.com/post/brazilian-jiu-jitsu/</link>
+      <link>http://jitshappens.com/post/brazilian-jiu-jitsu/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
-      <guid>http://jitshappens.herokuapp.com/post/brazilian-jiu-jitsu/</guid>
+      <guid>http://jitshappens.com/post/brazilian-jiu-jitsu/</guid>
       <description>
 
 &lt;h3 id=&#34;what-makes-bjj-so-different&#34;&gt;What makes BJJ so different?&lt;/h3&gt;
@@ -334,33 +222,9 @@ Side control or side mount- your opponent on his back with you lying (typically 
 
 &lt;p&gt;In 1914, Maeda moved to Brazil to help Japanese immigrants. There he met Gastï¿½o Gracie, the son of Scottish immigrant George Gracie. Gracie had assisted Maeda greatly, and in return, Maeda taught Judo to Gracie&amp;rsquo;s son Carlos at Maeda&amp;rsquo;s school in Brazil. Carlos, who was 14 when he started training, almost immediately started adapting the techniques to be more effective in open street fights where anything goes (vale tudo, in Portuguese). Carlos Gracie, like many fighters of his time, continued a tradition of &amp;ldquo;challenge matches&amp;rdquo; against fighters of various styles. He was famous throughout Brazil for his success in these fights. Later, Carlos taught his brothers Oswaldo, Jorge, Gastao and Helio. The first academy was opened in Rio de Janeiro in 1925. Carlos and Helio were responsible for creating the basis upon which Brazilian Jiu-Jitsu  exists today. Helio was small and frail, yet would consistently beat larger opponents. The Gracies began to emigrate to the United States after 1972, where they opened schools and hosted competitions and successful challenge matches. Most Gracie schools use the term &amp;ldquo;Gracie Jiu-Jitsu .&amp;rdquo; This is synonymous with Brazilian Jiu-Jitsu .&lt;/p&gt;
 
-&lt;h4 id=&#34;join-us&#34;&gt;Join Us!&lt;/h4&gt;
-
-&lt;p&gt;Visit &lt;a href=&#34;http://austinjiujitsu.com&#34;&gt;Austin Jiu-Jitsu&lt;/a&gt; to learn more about opportunities to explore Brazilian Jiu-Jitsu.&lt;/p&gt;
-
 &lt;h3 id=&#34;about-head-coach-david-thomas&#34;&gt;About Head Coach David Thomas&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://jitshappens.herokuapp.com/post/dave-thomas/&#34;&gt;About Coach Dave&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sign Up With Us!</title>
-      <link>http://jitshappens.herokuapp.com/post/sign-up/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://jitshappens.herokuapp.com/post/sign-up/</guid>
-      <description>
-
-&lt;h3 id=&#34;new-members&#34;&gt;New Members&lt;/h3&gt;
-
-&lt;p&gt;Yes! We are always accepting new students of any experience level!&lt;/p&gt;
-
-&lt;h4 id=&#34;follow-these-steps&#34;&gt;Follow These Steps&lt;/h4&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Come in and fill out a waiver, and then join us on the mats! First class is always free!&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;http://jitshappens.com/post/dave-thomas/&#34;&gt;About Coach Dave&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
