@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jits Happens - Brazilian Jiu-Jitsu</title>
-    <link>http://jitshappens.com/tags/competing/index.xml</link>
+    <link>http://www.jitshappens.com/tags/competing/index.xml</link>
     <description>Recent content on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>jits</copyright>
-    <atom:link href="http://jitshappens.com/tags/competing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.jitshappens.com/tags/competing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ready for Battle</title>
-      <link>http://jitshappens.com/blog/ready-for-battle/</link>
+      <link>http://www.jitshappens.com/blog/ready-for-battle/</link>
       <pubDate>Thu, 20 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://jitshappens.com/blog/ready-for-battle/</guid>
+      <guid>http://www.jitshappens.com/blog/ready-for-battle/</guid>
       <description>&lt;p&gt;Here are some thoughts to help everyone get ready for battle.&lt;/p&gt;
 
 &lt;ol&gt;
