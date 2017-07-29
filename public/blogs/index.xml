@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://www.jitshappens.com/blogs/</link>
+    <description>Recent content in Blogs on Jits Happens - Brazilian Jiu-Jitsu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>jits</copyright>
+    
+	<atom:link href="http://www.jitshappens.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jits Happens</title>
+      <link>http://www.jitshappens.com/blogs/jits-happens/</link>
+      <pubDate>Sat, 23 Oct 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jitshappens.com/blogs/jits-happens/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://www.jitshappens.com/</loc>
-    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://www.jitshappens.com/post/dave-thomas/</loc>
@@ -154,6 +150,200 @@
   <url>
     <loc>http://www.jitshappens.com/doing-good/news/</loc>
     <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/adaptation/</loc>
+    <lastmod>2008-12-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/bjj/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/blog/</loc>
+    <lastmod>2011-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/blog/</loc>
+    <lastmod>2004-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/blogs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/coaches/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/coaches/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/competing/</loc>
+    <lastmod>2008-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/competition/</loc>
+    <lastmod>2011-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/contact/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/contact/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/coaches/dave-thomas/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/doing-good/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/doing-good/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/doing-good/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/drills/</loc>
+    <lastmod>2005-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/flow/</loc>
+    <lastmod>2008-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/injuries/</loc>
+    <lastmod>2004-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/blogs/jits-happens/</loc>
+    <lastmod>2004-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/main/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/mastery/</loc>
+    <lastmod>2010-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/mma/</loc>
+    <lastmod>2011-02-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/news/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/news/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/opinion/</loc>
+    <lastmod>2004-10-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/post/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/services/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/social-media/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/tags/</loc>
+    <lastmod>2008-12-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/testimonials/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/</loc>
+    <lastmod>2016-07-31T15:25:09-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.jitshappens.com/topics/what-i-do/</loc>
+    <lastmod>2016-07-29T11:43:42-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

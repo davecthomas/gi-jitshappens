@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jits Happens - Brazilian Jiu-Jitsu</title>
-    <link>http://www.jitshappens.com/tags/news/index.xml</link>
-    <description>Recent content on Jits Happens - Brazilian Jiu-Jitsu</description>
+    <title>News on Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://www.jitshappens.com/tags/news/</link>
+    <description>Recent content in News on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>jits</copyright>
-    <atom:link href="http://www.jitshappens.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jul 2016 15:25:09 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.jitshappens.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>News</title>
@@ -15,12 +18,7 @@
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
       <guid>http://www.jitshappens.com/doing-good/news/</guid>
-      <description>
-
-&lt;h5 id=&#34;fight-club-david-thomas-exercises-body-and-soul-with-austin-jiu-jitsu&#34;&gt;Fight Club! David Thomas exercises body and soul with Austin Jiu-Jitsu&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.jitshappens.com/img/picayune-2008-0305.jpg&#34; alt=&#34;Fight Club!&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> Fight Club! David Thomas exercises body and soul with Austin Jiu-Jitsu </description>
     </item>
     
   </channel>

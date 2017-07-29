@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jits Happens - Brazilian Jiu-Jitsu</title>
-    <link>http://www.jitshappens.com/tags/social-media/index.xml</link>
-    <description>Recent content on Jits Happens - Brazilian Jiu-Jitsu</description>
+    <title>Social Media on Jits Happens - Brazilian Jiu-Jitsu</title>
+    <link>http://www.jitshappens.com/tags/social-media/</link>
+    <description>Recent content in Social Media on Jits Happens - Brazilian Jiu-Jitsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>jits</copyright>
-    <atom:link href="http://www.jitshappens.com/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jul 2016 15:25:09 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.jitshappens.com/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Contact Dave</title>
@@ -15,16 +18,8 @@
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
       <guid>http://www.jitshappens.com/post/contact/</guid>
-      <description>
-
-&lt;h3 id=&#34;social-media&#34;&gt;Social Media&lt;/h3&gt;
-
-&lt;p&gt;Click one of the links on the left to get to our &lt;a href=&#34;https://www.facebook.com/davecthomasatx&#34;&gt;Facebook&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/davecthomas&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/channel/UCAz3ZyJFnQmCJl0PyVce_4A&#34;&gt;YouTube&lt;/a&gt;, or other pages.&lt;/p&gt;
-
-&lt;h3 id=&#34;learn-more-about-coach-dave-thomas&#34;&gt;Learn More about coach Dave Thomas&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jitshappens.com/post/dave-thomas/&#34;&gt;About Coach Dave&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Social Media Click one of the links on the left to get to our Facebook, Twitter, YouTube, or other pages.
+Learn More about coach Dave Thomas About Coach Dave</description>
     </item>
     
   </channel>
