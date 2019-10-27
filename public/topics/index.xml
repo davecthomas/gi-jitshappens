@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Jits Happens - Brazilian Jiu-Jitsu</title>
@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Coaches</title>
+      <title>coaches</title>
       <link>http://www.jitshappens.com/topics/coaches/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>contact</title>
       <link>http://www.jitshappens.com/topics/contact/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
@@ -31,16 +31,7 @@
     </item>
     
     <item>
-      <title>News</title>
-      <link>http://www.jitshappens.com/topics/news/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://www.jitshappens.com/topics/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Services</title>
+      <title>services</title>
       <link>http://www.jitshappens.com/topics/services/</link>
       <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
       
@@ -49,16 +40,7 @@
     </item>
     
     <item>
-      <title>Testimonials</title>
-      <link>http://www.jitshappens.com/topics/testimonials/</link>
-      <pubDate>Sun, 31 Jul 2016 15:25:09 -0500</pubDate>
-      
-      <guid>http://www.jitshappens.com/topics/testimonials/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>What I Do</title>
+      <title>what I do</title>
       <link>http://www.jitshappens.com/topics/what-i-do/</link>
       <pubDate>Fri, 29 Jul 2016 11:43:42 -0500</pubDate>
       
